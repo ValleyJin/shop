@@ -8,11 +8,12 @@ import {BrowserRouter} from "react-router-dom"
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-        <App />
+    <BrowserRouter>  {/* 리액트 라우터 사용을 위한 태그 */}
+        <App />   
     </BrowserRouter>  
-  </React.StrictMode>
+  </React.StrictMode> 
 );
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
